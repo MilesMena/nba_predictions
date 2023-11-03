@@ -226,7 +226,10 @@ def print_performance_stats(model,X_train, X_test, y_train, y_test):
     print('TRAINING')
     print('-'* 30)
     # accuracy: {accuracy_score(y_train, train_predict)}\n
-    print(f'r2: {r2_score(y_train,train_predict)}\nMSE: {mean_squared_error(y_train,train_predict)}\nRMSE: {mean_squared_error(y_train,train_predict, squared = False)}\nMAE {mean_absolute_error(y_train,train_predict)} ')
+    print(f'r2: {r2_score(y_train,train_predict)}
+    \nMSE: {mean_squared_error(y_train,train_predict)}
+    \nRMSE: {mean_squared_error(y_train,train_predict, squared = False)}
+    \nMAE {mean_absolute_error(y_train,train_predict)} ')
     print()
     print('TESTING')
     print('-'* 30)
